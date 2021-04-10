@@ -9,6 +9,7 @@
   "private": false,
   "dependencies": {
     "fastify": "^3.14.2",
+    "fastify-plugin": "^3.0.0",
     "mongoose": "^5.12.3",
     "pino-pretty": "^4.7.1"
   },

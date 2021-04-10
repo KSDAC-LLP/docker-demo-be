@@ -1,5 +1,7 @@
 const fastify = require('fastify')({ logger: { prettyPrint: true } });
 
+fastify.register(require("./db.js"));
+
 fastify.get('/', async () => {
   return { name: "Simple Microservice", uptime: process.uptime() };
 })
