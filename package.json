@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A simple backend microservice",
+  "main": "app.js",
+  "repository": "git@github.com:KSDAC-LLP/docker-demo-be.git",
+  "author": "Hanut Singh Gusain <hanutsingh@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fastify": "^3.14.2",
+    "mongoose": "^5.12.3",
+    "pino-pretty": "^4.7.1"
+  },
+  "scripts": {
+    "start": "node ."
+  }
+}
